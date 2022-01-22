@@ -1,7 +1,7 @@
 import * as getUserService from "../services/user/get";
-import * as getUserService from "../services/user/delete";
-import * as getUserService from "../services/user/post";
-import * as getUserService from "../services/user/put";
+import * as deleteUserService from "../services/user/delete";
+import * as postUserService from "../services/user/post";
+import * as updateUserService from "../services/user/put";
 
 export const fetchUsers = (req, res) => {
   try {
